@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AHFMEpisodeListVCServices_Example' do
+  pod 'AHFMEpisodeListVCServices', :path => '../'
+
+  target 'AHFMEpisodeListVCServices_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
