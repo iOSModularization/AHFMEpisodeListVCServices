@@ -320,10 +320,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-AHFMEpisodeListVCServices_Example/Pods-AHFMEpisodeListVCServices_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AHFMEpisodeListVCServices/AHFMEpisodeListVCServices.framework",
+				"${BUILT_PRODUCTS_DIR}/AHFMServices/AHFMServices.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AHFMEpisodeListVCServices.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AHFMServices.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
